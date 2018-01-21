@@ -1,0 +1,15 @@
+c:\users\langm\source\repos\Sesssion1\Sesssion1\bin\Debug\Sesssion1.exe.config
+c:\users\langm\source\repos\Sesssion1\Sesssion1\bin\Debug\Sesssion1.exe
+c:\users\langm\source\repos\Sesssion1\Sesssion1\bin\Debug\Sesssion1.pdb
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.csprojResolveAssemblyReference.cache
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.Form1.resources
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.Properties.Resources.resources
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.csproj.GenerateResource.Cache
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.csproj.CoreCompileInputs.cache
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.exe
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.pdb
+c:\users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.View.Manager.resources
+C:\Users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.View.AddUser.resources
+C:\Users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.View.EditRole.resources
+C:\Users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.View.UserForm.resources
+C:\Users\langm\source\repos\Sesssion1\Sesssion1\obj\Debug\Sesssion1.View.LogDetected.resources
