@@ -208,5 +208,10 @@ namespace Sesssion1.View
                 e.Cancel = false;
             }
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
