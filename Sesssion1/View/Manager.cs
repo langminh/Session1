@@ -109,34 +109,30 @@ namespace Sesssion1.View
                 this.dataGridView1.Rows.Add();
                 if (!item.isActive)
                 {
-                    ChangeBackcolor(i);
-                    dataGridView1.Rows[i].Cells[0].Value = item.firstName;
-                    dataGridView1.Rows[i].Cells[1].Value = item.lastName;
-                    dataGridView1.Rows[i].Cells[2].Value = Age(item.birthDate, DateTime.Now);
-                    dataGridView1.Rows[i].Cells[3].Value = ((item.roleID == 1) ? "Administrator" : "Other User");
-                    dataGridView1.Rows[i].Cells[4].Value = item.email;
-                    dataGridView1.Rows[i].Cells[5].Value = OfficeModel.GetOfficeByID(item.officeID).Title;
+                    ChangeBackcolor(i, Color.Red, Color.White);
                 }
-                else
+                if(item.roleID == 1)
                 {
+                    ChangeBackcolor(i, Color.Green, Color.White);
+                }
                     dataGridView1.Rows[i].Cells[0].Value = item.firstName;
                     dataGridView1.Rows[i].Cells[1].Value = item.lastName;
                     dataGridView1.Rows[i].Cells[2].Value = Age(item.birthDate, DateTime.Now);
                     dataGridView1.Rows[i].Cells[3].Value = ((item.roleID == 1) ? "Administrator" : "Other User");
                     dataGridView1.Rows[i].Cells[4].Value = item.email;
                     dataGridView1.Rows[i].Cells[5].Value = OfficeModel.GetOfficeByID(item.officeID).Title;
-                }
+
                 i++;
             }
         }
         //yyyy-MM-dd
-        private void ChangeBackcolor(int index)
+        private void ChangeBackcolor(int index, Color color, Color font)
         {
             DataGridViewRow row = dataGridView1.Rows[index];
 
             DataGridViewCellStyle style = new DataGridViewCellStyle();
-            style.BackColor = Color.FromArgb(255, Color.Red);
-            style.ForeColor = Color.Black;
+            style.BackColor = color;
+            style.ForeColor = font;
             for (int i = 0; i < row.Cells.Count; i++)
             {
                 row.Cells[i].Style = style;
